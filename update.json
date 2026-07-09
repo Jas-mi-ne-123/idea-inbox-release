@@ -1,6 +1,25 @@
 {
-  "versionCode": 11,
-  "versionName": "0.1.10",
+  "versionCode": 14,
+  "versionName": "0.1.13",
   "apkUrl": "idea-inbox.apk",
-  "notes": "语音输入改为微信式按住录音：按住开始录 m4a，松开拿到音频，不再弹系统语音识别白框。"
+  "apkSha256": "A76FE5E78DDD164154195DC26710937CC6A29D94D0F0BD9864D42DA9A2F0880F",
+  "notes": "设置面板新增内置说明：更新发布、模型上传、安全措施、Obsidian 总目录和语音状态都可在软件里查看。",
+  "models": [
+    {
+      "id": "vosk-cn-small",
+      "name": "极速小模型",
+      "size": "约 42MB",
+      "url": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/models/vosk-model-small-cn-0.22.zip",
+      "fileName": "vosk-model-small-cn-0.22.zip",
+      "notes": "下载快，实时识别够用。"
+    },
+    {
+      "id": "vosk-cn-large",
+      "name": "高精度大模型",
+      "size": "约 1.3GB",
+      "url": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/models/vosk-model-cn-0.22.zip",
+      "fileName": "vosk-model-cn-0.22.zip",
+      "notes": "更准，占空间，首次下载会很久。"
+    }
+  ]
 }

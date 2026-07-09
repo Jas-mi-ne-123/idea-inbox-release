@@ -1,9 +1,9 @@
 {
-  "versionCode": 14,
-  "versionName": "0.1.13",
-  "apkUrl": "idea-inbox.apk",
-  "apkSha256": "A76FE5E78DDD164154195DC26710937CC6A29D94D0F0BD9864D42DA9A2F0880F",
-  "notes": "设置面板新增内置说明：更新发布、模型上传、安全措施、Obsidian 总目录和语音状态都可在软件里查看。",
+  "versionCode": 16,
+  "versionName": "0.1.15",
+  "apkUrl": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/v0.1.15/idea-inbox.apk",
+  "apkSha256": "062C1AD8A38D2A40B4FACD78D08F0ADF8DD6ECDF00122E43048B89AD9E142CEB",
+  "notes": "内置 Vosk 中文小模型。新版首次启动会自动把小模型解压到 App 外部数据目录，后续如果效果不够，可在设置里下载/切换大模型；同时保留 DeepSeek 分类、待重新AI分类标记和不确定时让你选择分类。",
   "models": [
     {
       "id": "vosk-cn-small",

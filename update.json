@@ -1,0 +1,6 @@
+{
+  "versionCode": 11,
+  "versionName": "0.1.10",
+  "apkUrl": "idea-inbox.apk",
+  "notes": "语音输入改为微信式按住录音：按住开始录 m4a，松开拿到音频，不再弹系统语音识别白框。"
+}

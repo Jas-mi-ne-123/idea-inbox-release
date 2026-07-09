@@ -1,9 +1,9 @@
 {
-  "versionCode": 36,
-  "versionName": "0.1.35",
-  "apkUrl": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/v0.1.35/idea-inbox.apk",
-  "apkSha256": "0FDFAAE780561CE3A8B2F0F5657E6F6D1C8C7C483893AC1D5DFC023A84D130B2",
-  "notes": "修复离线语音模型体验：内置小模型安装会在聊天里显示安装/解压状态和失败原因；手动下载语音模型时显示实时进度卡片、百分比、已下载大小和解压状态；同时自动定位 Vosk 压缩包里的真实模型目录，避免后续识别找错目录。",
+  "versionCode": 37,
+  "versionName": "0.1.36",
+  "apkUrl": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/v0.1.36/idea-inbox.apk",
+  "apkSha256": "78BABAC553785683B84845CB225B9DBF312281709A9F3316D68C564BCF6FE989",
+  "notes": "修复本地秘书的测试聊天流程：新建 md 文件会创建 Markdown 文件，不再误判成文件夹；“这个文件”会引用刚创建的 md；“开始测试聊天”会自动开启临时记录到聊天测试.md，发“结束调试”关闭。确定动作本地处理，不消耗 DeepSeek token。",
   "models": [
     {
       "id": "vosk-cn-small",

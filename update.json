@@ -1,9 +1,9 @@
 {
-  "versionCode": 16,
-  "versionName": "0.1.15",
-  "apkUrl": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/v0.1.15/idea-inbox.apk",
-  "apkSha256": "062C1AD8A38D2A40B4FACD78D08F0ADF8DD6ECDF00122E43048B89AD9E142CEB",
-  "notes": "内置 Vosk 中文小模型。新版首次启动会自动把小模型解压到 App 外部数据目录，后续如果效果不够，可在设置里下载/切换大模型；同时保留 DeepSeek 分类、待重新AI分类标记和不确定时让你选择分类。",
+  "versionCode": 30,
+  "versionName": "0.1.29",
+  "apkUrl": "https://github.com/Jas-mi-ne-123/idea-inbox-release/releases/download/v0.1.29/idea-inbox.apk",
+  "apkSha256": "C00A7344D6A217F0744DE24A379FD7BC14847C7387AB30C2B2F88A0927D21BC8",
+  "notes": "通知通道升级为高优先级，支持提示音、震动、锁屏显示和顶部横幅；喝水/账本定时提醒现在也会排队成“本地秘书”聊天消息，打开 App 后自动显示在聊天里。",
   "models": [
     {
       "id": "vosk-cn-small",
